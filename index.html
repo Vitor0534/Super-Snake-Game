@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Snake Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer src="javaScript/javaScript.js"></script>
+</head>
+<body onload="beggin()">
+
+	<div id="container">
+		
+		<h1>Super Snake Game!!</h1>
+
+		<div class="box">
+
+			<div id="menu">
+
+				<form id="start">
+					
+					<ul>
+						<li onclick="start()">Start Game</li>
+						<li onclick="settings()">Settings</li>
+						<li>Exit</li>
+					</ul>
+
+				</form>
+
+				<form id="settings">
+
+					<div class="settings_division">
+
+						    <ul id="speed">
+						    	<p>Speed:</p>
+								<li onclick="speed('low')">low</li>
+								<li onclick="speed('hight')">hight</li>
+								<li onclick="speed('insane')">insane</li>
+								<li onclick="settings()"class="return">return</li>
+							</ul>
+
+							<ul id="size" style="display:none;">
+						    	<p>Size:</p>
+								<li onclick="speed('low')">little</li>
+								<li onclick="speed('hight')">medium</li>
+								<li onclick="speed('insane')">Big Snake</li>
+							</ul>
+					</div>
+
+				</form>
+
+
+			</div>
+
+			<div class="infos">
+				<p id="points">Pontos:&nbsp;&nbsp; 0 -- Speed: low</p>
+			</div>
+
+			<!-- Game window, trabalha toda a parte gráfica do jogo-->
+			<canvas id="screen" width="512px" height="512px"> 	
+			</canvas>
+
+		</div>
+	</div>
+
+</body>
+</html>
