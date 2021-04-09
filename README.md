@@ -38,3 +38,13 @@ Como executar o jogo:
 
 - Abra o arquivo index.html no navegador;
 
+
+
+
+
+Ainda existem opções de jogabilidade e configuração a serem adicionadas futuramento no game, alguns exemplos são:
+
+* Ajuste do tamanho da Snake;
+* Variedade e Comidas e atribuição de pontos diferentes para cada uma;
+* Diferentes cenário para o jogo;
+
